@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js REST API with TypeScript
 
-## Getting Started
+This project demonstrates how to create a RESTful API using Next.js App Router and TypeScript. The API provides endpoints to manage users and posts with full CRUD functionality (Create, Read, Update, Delete). The project is designed with clean code principles, modularity, and scalability in mind.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Endpoints for Users and Posts**: 
+  - Manage users and their associated posts.
+- **CRUD Operations**:
+  - Supports `GET`, `POST`, `PUT`, and `DELETE` methods.
+- **TypeScript Integration**:
+  - Strongly typed models and services.
+- **JSON File as Database**:
+  - Mock data is stored in JSON files (`users.json` and `posts.json`), simulating a file-based database.
+- **Clean Architecture**:
+  - Modular structure separating routes, models, services, and utilities.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Next.js**: Framework for building server-side rendered React applications.
+- **TypeScript**: Ensures type safety and better code readability.
+- **Node.js**: Backend runtime environment.
+- **Postman**: Used for API testing.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation and Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
 
-## Deploy on Vercel
+## Test Outputs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Screenshot 2024-12-16 161716](https://github.com/user-attachments/assets/f5a1e071-5074-4ffc-9eab-7959240d0579)
+![Screenshot 2024-12-16 161701](https://github.com/user-attachments/assets/8cefb126-b5f0-463f-87f4-60367eaaf585)
+![Screenshot 2024-12-16 161651](https://github.com/user-attachments/assets/778828a2-8bbb-4a39-838b-ab68150b4180)
+![Screenshot 2024-12-16 161639](https://github.com/user-attachments/assets/e3d33d3b-1e8f-4986-9c80-b3d0a9183fe2)
+![Screenshot 2024-12-16 161622](https://github.com/user-attachments/assets/6f8e480a-ffee-4ae9-81d5-1046074317cd)
+![Screenshot 2024-12-16 161350](https://github.com/user-attachments/assets/9c227dbb-1983-408c-bd57-16cd6c74d848)
+![Screenshot 2024-12-16 161736](https://github.com/user-attachments/assets/0c54ea2e-0f6d-4705-a269-2984d8b30c14)
+![Screenshot 2024-12-16 161726](https://github.com/user-attachments/assets/f7f7e2cd-fe22-4205-b18c-46451c2d44e9)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
