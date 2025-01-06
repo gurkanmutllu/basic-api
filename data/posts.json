@@ -19,8 +19,13 @@
   },
   {
     "id": 4,
-    "title": "New Post 2",
-    "content": "This is new post 2",
+    "title": "deneme2222",
+    "content": "This is new post 2 denemesği",
     "userId": 2
+  },
+  {
+    "id": 5,
+    "title": "deneme",
+    "content": "denemeeesdalfsdfksdlfkds yakup"
   }
 ]
